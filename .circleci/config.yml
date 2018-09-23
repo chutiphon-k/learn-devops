@@ -23,6 +23,4 @@ jobs:
           name: "Build docker image and push to docker hub"
           command:
             cp Dockerfile.production Dockerfile
-            ls
-            docker images
       - run: echo Done
