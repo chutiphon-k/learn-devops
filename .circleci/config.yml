@@ -23,4 +23,5 @@ jobs:
           name: "Build docker image and push to docker hub"
           command:
             cp Dockerfile.production Dockerfile
+            docker build -t chutiphonkk/example-nodejs-circle:latest .
       - run: echo Done
